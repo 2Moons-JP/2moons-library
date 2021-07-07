@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB2422-I/MJ
+D USB2422-I/MJ
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001726B.pdf
+$ENDCMP
+# end doc library

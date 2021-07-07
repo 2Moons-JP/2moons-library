@@ -1,0 +1,68 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Microchip USB2422-I/MJ
+#
+DEF USB2422-I_MJ U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "USB2422-I/MJ" 0 300 50 H V L CNN 
+F2 "Microchip-24-S4QFN-4x4B-0.5P-02_2012-A-*" 0 400 50 H I L CNN 
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00001726B.pdf" 0 500 50 H I L CNN 
+F4 "+85°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-40°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "Integrated Circuits (ICs)" 0 1000 50 H I L CNN "device class L1"
+F9 "Interface ICs" 0 1100 50 H I L CNN "device class L2"
+F10 "USB Interface ICs" 0 1200 50 H I L CNN "device class L3"
+F11 "IC HUB CTLR USB 2.0 24QFN" 0 1300 50 H I L CNN "digikey description"
+F12 "USB2422-I/MJ-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "1mm" 0 1500 50 H I L CNN "height"
+F14 "I2C,USB,SMBus" 0 1600 50 H I L CNN "interface"
+F15 "QFN50P400X400X90-24" 0 1700 50 H I L CNN "ipc land pattern name"
+F16 "Yes" 0 1800 50 H I L CNN "lead free"
+F17 "fefc88ccda64ecf8" 0 1900 50 H I L CNN "library id"
+F18 "Microchip" 0 2000 50 H I L CNN "manufacturer"
+F19 "3.6V" 0 2100 50 H I L CNN "max supply voltage"
+F20 "3V" 0 2200 50 H I L CNN "min supply voltage"
+F21 "Microchip USB2422-I/MJ; USB Controller; USB 2.0; 3 - 3.6 V; 24-Pin SQFN" 0 2300 50 H I L CNN "mouser description"
+F22 "579-USB2422-I/MJ" 0 2400 50 H I L CNN "mouser part number"
+F23 "29-70mA" 0 2500 50 H I L CNN "nominal supply current"
+F24 "2" 0 2600 50 H I L CNN "number of ports"
+F25 "SQFN24" 0 2700 50 H I L CNN "package"
+F26 "Yes" 0 2800 50 H I L CNN "rohs"
+F27 "0mm" 0 2900 50 H I L CNN "standoff height"
+F28 "+85°C" 0 3000 50 H I L CNN "temperature range high"
+F29 "-40°C" 0 3100 50 H I L CNN "temperature range low"
+F30 "USB 2.0" 0 3200 50 H I L CNN "usb standard"
+DRAW
+X VDD33 1 100 0 100 R 40 40 1 1 W 
+X VDD33 9 100 -100 100 R 40 40 1 1 W 
+X VDD33 18 100 -200 100 R 40 40 1 1 W 
+X USBDM_DN1/PRT_DIS_M1 2 3100 -300 100 L 40 40 1 1 B 
+X USBDM_DN2/PRT_DIS_M2 4 3100 -800 100 L 40 40 1 1 B 
+X USBDP_DN1/PRT_DIS_P1 3 3100 -200 100 L 40 40 1 1 B 
+X USBDP_DN2/PRT_DIS_P2 5 3100 -700 100 L 40 40 1 1 B 
+X PRTPWR1/(BC_EN1) 7 3100 0 100 L 40 40 1 1 W 
+X PRTPWR2 11 3100 -500 100 L 40 40 1 1 W 
+X ~OCS1~ 8 3100 -100 100 L 40 40 1 1 I 
+X ~OCS2~ 12 3100 -600 100 L 40 40 1 1 I 
+X ~RESET~ 15 100 -400 100 R 40 40 1 1 I 
+X CRFILT 10 100 -600 100 R 40 40 1 1 P 
+X NC 6 100 -1700 100 R 40 40 1 1 P 
+X PLLFILT 23 100 -700 100 R 40 40 1 1 P 
+X RBIAS 24 100 -800 100 R 40 40 1 1 P 
+X SMBCLK/CFG_SEL0 14 100 -1300 100 R 40 40 1 1 I 
+X SMBDATA/NON_REM1 13 100 -1400 100 R 40 40 1 1 B 
+X SUSP_IND/LOCAL_PWR/(NON_REM0) 17 100 -1500 100 R 40 40 1 1 O 
+X USBDM_UP 19 3100 -1000 100 L 40 40 1 1 B 
+X USBDP_UP 20 3100 -1100 100 L 40 40 1 1 B 
+X VBUS_DET 16 3100 -1200 100 L 40 40 1 1 W 
+X XTALIN/CLKIN 22 100 -1000 100 R 40 40 1 1 I 
+X XTALOUT/(CLKIN_EN) 21 100 -1100 100 R 40 40 1 1 O 
+X VSS 25 3100 -2000 100 L 40 40 1 1 W 
+S 200 100 3000 -2100 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
