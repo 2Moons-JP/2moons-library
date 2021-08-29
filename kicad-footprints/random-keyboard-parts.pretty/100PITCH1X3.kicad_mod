@@ -1,0 +1,13 @@
+(module 100PITCH1X3 (layer F.Cu) (tedit 4F8E9504)
+  (fp_text reference J3 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.778) (thickness 0.127)))
+  )
+  (fp_text value JMP (at 0 3.048) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.778) (thickness 0.2032)))
+  )
+  (fp_line (start 0 0) (end 2.54 0) (layer B.SilkS) (width 2.54))
+  (fp_line (start -2.54 0) (end 0 0) (layer F.SilkS) (width 2.54))
+  (pad 1 thru_hole circle (at -2.54 0) (size 1.651 1.651) (drill 0.9906) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 0) (size 1.651 1.651) (drill 0.9906) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at 2.54 0) (size 1.651 1.651) (drill 0.9906) (layers *.Cu *.Mask F.SilkS))
+)
